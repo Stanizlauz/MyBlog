@@ -1,13 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import Footer from './Branches/Footer';
+import Grid from './Branches/Grid';
+import Header from './Branches/Header';
+import Slide from './Branches/Slide';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Header />
+    <Slide />
+    <Grid />
+    <Footer />
   </React.StrictMode>
 );
 
